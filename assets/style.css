@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background: #3E5151;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.main{
+	position: absolute;
+  width: 400px;
+  height: 100%;
+  z-index: 15;
+  top: 40%;
+  left: 40%;
+  margin: -100px 0 0 -150px;
+  text-align: center;
+}
+
+
+/*.num {
+	margin: 10px;
+}*/
+
+.calc {
+	margin-top: 15px;
+	text-align: center
+}
+
+.result {
+	margin-bottom: 5px;
+	/*margin-left: 40%;*/
+	text-align: center;
+	color: #fff;
+	/*padding-right: 20px; */
+	/*width: 100px;*/
+
+}
+
+button {
+	width: 40px;
+	margin: 10px;
+}
+
+#a-0 {
+	width: 100px;
+	margin-left: -3px;
+}
+
+.view {
+	color: #fff;
+}
